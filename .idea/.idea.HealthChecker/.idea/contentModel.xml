@@ -13,6 +13,7 @@
         </e>
         <e p="ConsulHealthChecker.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
+          <e p="ServiceListModel.cs" t="Include" />
           <e p="ServiceModel.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
