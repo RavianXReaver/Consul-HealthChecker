@@ -13,4 +13,4 @@ The user is required to provide 3 key elements in a single argument,
 2. Service Name
 3. Interval(ms)
 
-Eg: "localhost:5555;Test-API;1000" 
+Eg: <b> dotnet ConsulHealthChecker.dll "localhost:5555;Test-API;1000" </b>
