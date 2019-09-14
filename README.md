@@ -7,3 +7,10 @@ This is a simple health checker for checking registered APIs in a service of a s
 Consul is used as a service discovery tool by an API Gateway(Ocelot). Therefore we have to make sure that those services registered to Consul is actually available. Failure to do so will result the API Gateway to call end point of API servers which may not be available(Technical problem?), thus resulting an error. 
 
 <h3> How to use this health Checker? </h3>
+The user is required to provide 3 key elements in a single argument,
+
+1. Consul Host Name
+2. Service Name
+3. Interval(ms)
+
+Eg: "localhost:5555;Test-API;1000" 
